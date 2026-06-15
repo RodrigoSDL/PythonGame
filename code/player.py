@@ -10,3 +10,4 @@ class Player(Entity):
 
     def move(self, ):
         pass
+
