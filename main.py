@@ -1,10 +1,8 @@
-from turtledemo.clock import setup
-
 import pygame
 print('setup start')
 pygame.init()
 
-window = pygame.display.set_mode(size=(600,480))
+window = pygame.display.set_mode(size=(900,600))
 print('setup end')
 
 print('loop start')
@@ -14,4 +12,4 @@ while True:
         if event.type == pygame.QUIT:
             print('quiting...')
             pygame.quit() #close window
-            quit() #end pygame
+            quit() #end pygamer
