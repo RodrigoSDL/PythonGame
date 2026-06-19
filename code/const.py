@@ -5,6 +5,20 @@ COLOR_ORANGE = (255, 128, 0)
 COLOR_WHITE = (255, 255, 255)
 
 
+#E
+ENTITY_SPEED = {
+    'Fase_A_1':0,
+    'Fase_A_2':10,
+    'Fase_A_3':40,
+    'Fase_A_4':60,
+    'Fase_A_5':100,
+    'Fase_A_6':5,
+    'Fase_A_7':6,
+
+
+
+}
+
 #M
 #CRIA AS OPÇOES DO MENU NUMA DECLARAÇÃO CHAMADA MENU_OPTION
 MENU_OPTION = ('NEW GAME 1P',
