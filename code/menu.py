@@ -9,7 +9,7 @@ from code.const import WINDOW_WIDTH, COLOR_ORANGE, MENU_OPTION, COLOR_WHITE # IM
 class Menu: #INICIO DA CLASSE MENU
     def __init__(self, window):# AUTO DEFINIÇÃO DE JANELA PARA RODAR A APLICAÇÃO (JOGO)
         self.window = window #CHAMA PARA SI A FUNÇÃO DE ABRIR O TERMINAL DO JOGO (JANELA OU WINDIW)
-        self.surf = pygame.image.load('./asset/Menu_background.png') #CHAMA SOBRE A JANELA UMA IMAGEM
+        self.surf = pygame.image.load('./asset/Menu_background.png').convert_alpha() #CHAMA SOBRE A JANELA UMA IMAGEM
         self.rect = self.surf.get_rect(left=0, top=0) #ESTABELECE COMEÇO DA MARCAÇÃO DO RETANGULO CHAMADO ANTERIORMENTE
 
     def run(self, ): # FAZ UMA AUTODEFINIÇÃO
