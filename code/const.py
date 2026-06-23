@@ -22,6 +22,23 @@ ENTITY_SPEED = {
     'Enemy2': 1,
 }
 
+ENTITY_HEALTH = {
+    'Fase_A_1':999,
+    'Fase_A_2':999,
+    'Fase_A_3':999,
+    'Fase_A_4':999,
+    'Fase_A_5':999,
+    'Fase_A_6':999,
+    'Fase_A_7':999,
+    'Player1': 150,
+    'Player2': 150,
+    'Enemy1': 50,
+    'Enemy1shot': 50,
+    'Enemy2': 60,
+    'Enemy2shot': 50,
+
+}
+
 #M
 #CRIA AS OPÇOES DO MENU NUMA DECLARAÇÃO CHAMADA MENU_OPTION
 MENU_OPTION = ('NEW GAME 1P',
@@ -42,7 +59,7 @@ PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL,
                 'Player2': pygame.K_LCTRL}
 
 #S
-SPAWN_TIME = 4000
+SPAWN_TIME = 2000
 
 #w
 #ESTABELECE DEFINIÇÕES DO TAMANHO DA JANELA (MESMA PROPORÇÃO DA IMAGEM DO MENU INICIAL.
