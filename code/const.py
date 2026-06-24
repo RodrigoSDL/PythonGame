@@ -17,9 +17,13 @@ ENTITY_SPEED = {
     'Fase_A_6':5,
     'Fase_A_7':6,
     'Player1': 4,
+    'Player1Shot': 4,
     'Player2': 4,
-    'Enemy1': 2,
-    'Enemy2': 1,
+    'Player2Shot': 4,
+    'Enemy1': 1,
+    'Enemy2': 2,
+    'Enemy1Shot': 3,
+    'Enemy2Shot': 3,
 }
 
 ENTITY_HEALTH = {
@@ -31,11 +35,22 @@ ENTITY_HEALTH = {
     'Fase_A_6':999,
     'Fase_A_7':999,
     'Player1': 150,
+    'Player1Shot': 1,
     'Player2': 150,
+    'Player2Shot': 1,
     'Enemy1': 50,
-    'Enemy1shot': 50,
+    'Enemy1Shot': 1,
     'Enemy2': 60,
-    'Enemy2shot': 50,
+    'Enemy2Shot': 1,
+
+}
+ENTITY_SHOT_DELAY = {
+    'Player1' : 150,
+    'Player2' : 120,
+    'Enemy1': 750,
+    'Enemy2': 750,
+
+
 
 }
 
