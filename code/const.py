@@ -10,14 +10,28 @@ COLOR_CYAN = (0, 128, 128)
 
 # E
 EVENT_ENEMY = pygame.USEREVENT + 1
+EVENT_TIMEOUT = pygame.USEREVENT + 2
 ENTITY_SPEED = {
-    'Fase_A_1': 0,
-    'Fase_A_2': 1,
-    'Fase_A_3': 4,
-    'Fase_A_4': 6,
-    'Fase_A_5': 10,
-    'Fase_A_6': 5,
-    'Fase_A_7': 6,
+    'Level1bg0': 0,
+    'Level1bg1': 2,
+    'Level1bg2': 1,
+    'Level1bg3': 4,
+    'Level1bg4': 5,
+
+    'Level2bg0': 0,
+    'Level2bg1': 2,
+    'Level2bg2': 1,
+    'Level2bg3': 4,
+    'Level2bg4': 5,
+    'Level2bg5': 8,
+    'Level2bg6': 10,
+
+    'Level3bg0': 0,
+    'Level3bg1': 2,
+    'Level3bg2': 1,
+    'Level3bg3': 4,
+    'Level3bg4': 5,
+
     'Player1': 4,
     'Player1Shot': 4,
     'Player2': 4,
@@ -29,13 +43,26 @@ ENTITY_SPEED = {
 }
 
 ENTITY_HEALTH = {
-    'Fase_A_1': 999,
-    'Fase_A_2': 999,
-    'Fase_A_3': 999,
-    'Fase_A_4': 999,
-    'Fase_A_5': 999,
-    'Fase_A_6': 999,
-    'Fase_A_7': 999,
+    'Level1bg0': 999,
+    'Level1bg1': 999,
+    'Level1bg2': 999,
+    'Level1bg3': 999,
+    'Level1bg4': 999,
+
+    'Level2bg0': 999,
+    'Level2bg1': 999,
+    'Level2bg2': 999,
+    'Level2bg3': 999,
+    'Level2bg4': 999,
+    'Level2bg5': 999,
+    'Level2bg6': 999,
+
+    'Level3bg0': 999,
+    'Level3bg1': 999,
+    'Level3bg2': 999,
+    'Level3bg3': 999,
+    'Level3bg4': 999,
+
     'Player1': 150,
     'Player1Shot': 1,
     'Player2': 150,
@@ -48,13 +75,26 @@ ENTITY_HEALTH = {
 }
 
 ENTITY_DAMAGE = {
-    'Fase_A_1': 0,
-    'Fase_A_2': 0,
-    'Fase_A_3': 0,
-    'Fase_A_4': 0,
-    'Fase_A_5': 0,
-    'Fase_A_6': 0,
-    'Fase_A_7': 0,
+    'Level1bg0': 0,
+    'Level1bg1': 0,
+    'Level1bg2': 0,
+    'Level1bg3': 0,
+    'Level1bg4': 0,
+
+    'Level2bg0': 0,
+    'Level2bg1': 0,
+    'Level2bg2': 0,
+    'Level2bg3': 0,
+    'Level2bg4': 0,
+    'Level2bg5': 0,
+    'Level2bg6': 0,
+
+    'Level3bg0': 0,
+    'Level3bg1': 0,
+    'Level3bg2': 0,
+    'Level3bg3': 0,
+    'Level3bg4': 0,
+
     'Player1': 1,
     'Player1Shot': 25,
     'Player2': 1,
@@ -65,13 +105,27 @@ ENTITY_DAMAGE = {
     'Enemy2Shot': 15,
 }
 ENTITY_SCORE = {
-    'Fase_A_1': 0,
-    'Fase_A_2': 0,
-    'Fase_A_3': 0,
-    'Fase_A_4': 0,
-    'Fase_A_5': 0,
-    'Fase_A_6': 0,
-    'Fase_A_7': 0,
+    'Level1bg0': 0,
+    'Level1bg1': 0,
+    'Level1bg2': 0,
+    'Level1bg3': 0,
+    'Level1bg4': 0,
+
+
+    'Level2bg0': 0,
+    'Level2bg1': 0,
+    'Level2bg2': 0,
+    'Level2bg3': 0,
+    'Level2bg4': 0,
+    'Level2bg5': 0,
+    'Level2bg6': 0,
+
+    'Level3bg0': 0,
+    'Level3bg1': 0,
+    'Level3bg2': 0,
+    'Level3bg3': 0,
+    'Level3bg4': 0,
+
     'Player1': 0,
     'Player1Shot': 0,
     'Player2': 0,
@@ -116,6 +170,9 @@ PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL,
 # S
 SPAWN_TIME = 2000
 
+#T
+TIMEOUT_STEP = 100
+TIMEOUT_LEVEL = 25000  #20segundos
 # w
 # ESTABELECE DEFINIÇÕES DO TAMANHO DA JANELA (MESMA PROPORÇÃO DA IMAGEM DO MENU INICIAL.
 WINDOW_WIDTH = 526
