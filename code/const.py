@@ -62,9 +62,9 @@ ENTITY_HEALTH = {
     'Level3bg3': 999,
     'Level3bg4': 999,
 
-    'Player1': 150,
+    'Player1': 200,
     'Player1Shot': 1,
-    'Player2': 150,
+    'Player2': 200,
     'Player2Shot': 1,
     'Enemy1': 50,
     'Enemy1Shot': 1,
@@ -126,7 +126,7 @@ ENTITY_SCORE = {
     'Player1': 0,
     'Player1Shot': 0,
     'Player2': 0,
-    'Player2Shot': 20,
+    'Player2Shot': 0,
     'Enemy1': 100,
     'Enemy2': 120,
     'Enemy1Shot': 0,
@@ -134,7 +134,7 @@ ENTITY_SCORE = {
 
 }
 ENTITY_SHOT_DELAY = {
-    'Player1': 150,
+    'Player1': 120,
     'Player2': 120,
     'Enemy1': 750,
     'Enemy2': 750,
@@ -160,31 +160,30 @@ PLAYER_KEY_RIGHT = {'Player1': pygame.K_RIGHT,
 PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL,
                     'Player2': pygame.K_LCTRL}
 # S
-SPAWN_TIME = 2000
-
+SPAWN_TIME = 1800
 
 # T
 TIMEOUT_STEP = 100
-TIMEOUT_LEVEL = 10000  # 20segundos
+TIMEOUT_LEVEL = 100000  # 20segundos
 # w
 # ESTABELECE DEFINIÇÕES DO TAMANHO DA JANELA (MESMA PROPORÇÃO DA IMAGEM DO MENU INICIAL.
 WINDOW_WIDTH = 526
 WINDOW_HEIGHT = 324
 
-#S
+# S
 SCORE_POS = {'Title': (WINDOW_WIDTH / 2, 50),
-              'Enter Name': (WINDOW_WIDTH / 2, 90),
-              'Label': (WINDOW_WIDTH / 2, 90),
-              'Name': (WINDOW_WIDTH / 2, 110),
-              0: (WINDOW_WIDTH / 2, 110),
-              1: (WINDOW_WIDTH / 2, 130),
-              2: (WINDOW_WIDTH / 2, 150),
-              3: (WINDOW_WIDTH / 2, 170),
-              4: (WINDOW_WIDTH / 2, 190),
-              5: (WINDOW_WIDTH / 2, 210),
-              6: (WINDOW_WIDTH / 2, 230),
-              7: (WINDOW_WIDTH / 2, 250),
-              8: (WINDOW_WIDTH / 2, 270),
-              9: (WINDOW_WIDTH / 2, 290),
+             'Enter Name': (WINDOW_WIDTH / 2, 90),
+             'Label': (WINDOW_WIDTH / 2, 90),
+             'Name': (WINDOW_WIDTH / 2, 110),
+             0: (WINDOW_WIDTH / 2, 110),
+             1: (WINDOW_WIDTH / 2, 130),
+             2: (WINDOW_WIDTH / 2, 150),
+             3: (WINDOW_WIDTH / 2, 170),
+             4: (WINDOW_WIDTH / 2, 190),
+             5: (WINDOW_WIDTH / 2, 210),
+             6: (WINDOW_WIDTH / 2, 230),
+             7: (WINDOW_WIDTH / 2, 250),
+             8: (WINDOW_WIDTH / 2, 270),
+             9: (WINDOW_WIDTH / 2, 290),
 
-              }
+             }

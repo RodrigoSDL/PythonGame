@@ -8,14 +8,12 @@ from code.const import ENTITY_SPEED, WINDOW_HEIGHT, WINDOW_WIDTH, PLAYER_KEY_UP,
 from code.entity import Entity
 
 
-
-
 class Player(Entity):
-    def __init__(self, name:str, position:tuple):
+    def __init__(self, name: str, position: tuple):
         super().__init__(name, position)
         self.shot_delay = ENTITY_SHOT_DELAY[self.name]
 
-#DEFINIÇÕES DE CONTROLE E LIMITE DA TELA,
+    # DEFINIÇÕES DE CONTROLE E LIMITE DA TELA,
     def move(self, ):
         pressed_key = pygame.key.get_pressed()
         if pressed_key[PLAYER_KEY_UP[self.name]] and self.rect.top > 0:
@@ -29,6 +27,7 @@ class Player(Entity):
 
         if pressed_key[PLAYER_KEY_RIGHT[self.name]] and self.rect.right < WINDOW_WIDTH:
             self.rect.centerx += ENTITY_SPEED[self.name]
+
     def shoot(self):
         self.shot_delay -= 10
         if self.shot_delay == 0:
@@ -36,4 +35,3 @@ class Player(Entity):
             pressed_key = pygame.key.get_pressed()
             if pressed_key[PLAYER_KEY_SHOOT[self.name]]:
                 return PlayerShot(name=f'{self.name}Shot', position=(self.rect.centerx, self.rect.centery))
-
