@@ -41,7 +41,6 @@ ENTITY_SPEED = {
     'Enemy1Shot': 3,
     'Enemy2Shot': 3,
 }
-
 ENTITY_HEALTH = {
     'Level1bg0': 999,
     'Level1bg1': 999,
@@ -73,7 +72,6 @@ ENTITY_HEALTH = {
     'Enemy2Shot': 1,
 
 }
-
 ENTITY_DAMAGE = {
     'Level1bg0': 0,
     'Level1bg1': 0,
@@ -111,7 +109,6 @@ ENTITY_SCORE = {
     'Level1bg3': 0,
     'Level1bg4': 0,
 
-
     'Level2bg0': 0,
     'Level2bg1': 0,
     'Level2bg2': 0,
@@ -135,11 +132,7 @@ ENTITY_SCORE = {
     'Enemy1Shot': 0,
     'Enemy2Shot': 0,
 
-
-
-
 }
-
 ENTITY_SHOT_DELAY = {
     'Player1': 150,
     'Player2': 120,
@@ -166,14 +159,32 @@ PLAYER_KEY_RIGHT = {'Player1': pygame.K_RIGHT,
                     'Player2': pygame.K_d}
 PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL,
                     'Player2': pygame.K_LCTRL}
-
 # S
 SPAWN_TIME = 2000
 
-#T
+
+# T
 TIMEOUT_STEP = 100
-TIMEOUT_LEVEL = 25000  #20segundos
+TIMEOUT_LEVEL = 10000  # 20segundos
 # w
 # ESTABELECE DEFINIÇÕES DO TAMANHO DA JANELA (MESMA PROPORÇÃO DA IMAGEM DO MENU INICIAL.
 WINDOW_WIDTH = 526
 WINDOW_HEIGHT = 324
+
+#S
+SCORE_POS = {'Title': (WINDOW_WIDTH / 2, 50),
+              'Enter Name': (WINDOW_WIDTH / 2, 90),
+              'Label': (WINDOW_WIDTH / 2, 90),
+              'Name': (WINDOW_WIDTH / 2, 110),
+              0: (WINDOW_WIDTH / 2, 110),
+              1: (WINDOW_WIDTH / 2, 130),
+              2: (WINDOW_WIDTH / 2, 150),
+              3: (WINDOW_WIDTH / 2, 170),
+              4: (WINDOW_WIDTH / 2, 190),
+              5: (WINDOW_WIDTH / 2, 210),
+              6: (WINDOW_WIDTH / 2, 230),
+              7: (WINDOW_WIDTH / 2, 250),
+              8: (WINDOW_WIDTH / 2, 270),
+              9: (WINDOW_WIDTH / 2, 290),
+
+              }
